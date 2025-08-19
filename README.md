@@ -8,6 +8,7 @@
 - lib32-vulkan-radeon
 - lib32-vulkan-mesa-layers
 - lib32-vulkan-validation-layers
+- gamescope
 - gamescope --backend sdl -f -- %command% (fix for games that error with X11 and runs fullscreen)
 
 # Surfshark VPN
