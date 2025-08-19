@@ -1,5 +1,13 @@
 # Omarchy Notes
 
+# Wifi setup during installation
+- iwctl
+- station list
+- station wlan0 get-networks
+- station wlan0 connect name-of-wifi
+- enter password when promted
+- ctrl+c
+
 # Monitor Setup
 - env = GDK_SCALE, 1
 - monitor = eDP-1, 1920x1200@60, 0x0, auto
@@ -13,6 +21,7 @@
 
 # Surfshark VPN
 - sudo wget https://surfshark.com/api/v1/server/configurations
+- install openvpn
 - sudo openvpn *ovpn File from download*
 - enter Username
 - enter Password
