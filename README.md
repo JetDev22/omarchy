@@ -22,9 +22,12 @@
 # Surfshark VPN
 - sudo wget https://surfshark.com/api/v1/server/configurations
 - install openvpn
+- add following to ovpn file for autologin
+  <auth-user-pass>
+  username
+  password
+  </auth-user-pass>
 - sudo openvpn *ovpn File from download*
-- enter Username
-- enter Password
 
 # Wallpaper
 - stored in .config/omarchy/themes/
