@@ -23,10 +23,12 @@
 - sudo wget https://surfshark.com/api/v1/server/configurations
 - install openvpn
 - add following to ovpn file for autologin
-  ```<auth-user-pass>
+  ```
+  <auth-user-pass>
   username
   password
-  </auth-user-pass>```
+  </auth-user-pass>
+  ```
 - sudo openvpn *ovpn File from download*
 
 # Wallpaper
