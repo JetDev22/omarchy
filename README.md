@@ -29,7 +29,7 @@
   password
   </auth-user-pass>
   ```
-- sudo openvpn *ovpn File from download*
+- sudo openvpn [ovpn File from download]
 
 # Wallpaper
 - stored in .config/omarchy/themes/
