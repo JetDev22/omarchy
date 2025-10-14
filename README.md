@@ -8,6 +8,15 @@
 - enter password when promted
 - ctrl+c
 
+# Wifi settings to avoid wifi drops
+- go to /etc/NetworkManager
+- sudo nvim NetworkManager.conf
+- add following lines
+  [device]
+  wifi.scan-rand-mac-address = no
+  [connection]
+  wifi.powersave = 0
+
 # Monitor Setup
 - env = GDK_SCALE, 1
 - monitor = eDP-1, 1920x1200@60, 0x0, auto
