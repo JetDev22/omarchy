@@ -12,10 +12,8 @@
 - go to /etc/NetworkManager
 - sudo nvim NetworkManager.conf
 - add following lines
-  [device]
-  wifi.scan-rand-mac-address = no
-  [connection]
-  wifi.powersave = 0
+- [device] wifi.scan-rand-mac-address = no
+- [connection] wifi.powersave = 0
 
 # Monitor Setup
 - env = GDK_SCALE, 1
