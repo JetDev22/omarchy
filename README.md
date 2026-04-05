@@ -25,6 +25,7 @@
 - lib32-vulkan-validation-layers
 - gamescope
 - gamescope --backend sdl -f -- %command% (fix for games that error with X11 and runs fullscreen)
+- gamescope -w 1280 -h 800 -W 1920 -H 1200 -F fsr -r 60 -f -- %command% (Gemini improved to use AMD Upscaling FSR)
 
 # Surfshark VPN
 - sudo wget https://surfshark.com/api/v1/server/configurations
